@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Evaluate News Articles with NLP</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="image"></div>
+            <div class="title">
+                <h1>News Article Evaluator</h1>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="big-logo"></div>
+                <form class="form" onsubmit="return handleSubmit(event)">
+                    <input id="link" type="text" name="input" value="" onblur="onBlur()" placeholder="Enter your link">
+                    <input type="submit" id="submit-button" name="" value="submit" onclick="return handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            <section>
+
+            <section>
+                <h2 class="form-results">Form Results:</h2>
+                <div id="results"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer">Alina Miroshnyk 2019</p>
+        </footer>
+    </body>
+</html>
